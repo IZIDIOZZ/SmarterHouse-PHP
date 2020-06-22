@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Impact;
+    src: url(../fonts/Impact.ttf);
+}
+
+/* evitando que o corpo do site role na horizontal */
+body{
+    overflow-x: hidden;
+
+}
+/* ####### */
+
+/* estilos do botão de voltar para o topo */
+.div_voltar_topo{
+    position: fixed; bottom: 5vh; left: 5vh; z-index: 99;
+}
+.div_voltar_inicio{
+    position: fixed; top: 2vh; left: 0px; z-index: 100;
+}
+
+.button.hollow.voltar_inicio {
+    background-color:#E5EFC1;
+    border: 1px solid #5B5150;
+    color: #5B5150; 
+    
+}
+    /* evento hover do botão */
+    .button.hollow.voltar_inicio:hover, .button.hollow.voltar_inicio:focus {
+      border-color: #443D3C;
+      color: #443D3C; 
+    }
+      /* propriedade disable do botão */
+      .button.hollow.voltar_inicio:hover.disabled,
+       .button.hollow.voltar_inicio:hover[disabled],
+        .button.hollow.voltar_inicio:focus.disabled,
+         .button.hollow.voltar_inicio:focus[disabled] {
+        border: 1px solid #ACB391;
+        color: #ACB391; }
+
+/* criando um botão estilizado */
+.button.hollow.topo {
+    border-radius: 50px ;background-color:#E5EFC1;
+    border: 1px solid #5B5150;
+    color: #5B5150; }
+    /* evento hover do botão */
+    .button.hollow.topo:hover, .button.hollow.topo:focus {
+      border-color: #443D3C;
+      color: #443D3C; }
+      /* propriedade disable do botão */
+      .button.hollow.topo:hover.disabled,
+       .button.hollow.topo:hover[disabled],
+        .button.hollow.topo:focus.disabled,
+         .button.hollow.topo:focus[disabled] {
+        border: 1px solid #ACB391;
+        color: #ACB391; }
+
+/* ####### */
+
+/* estilos do body do site */
+.body_site{
+    height:auto;
+   min-height: 100vh; 
+}
+/* ####### */
+
+/* estilos para parallax */
+.parallax-amarelo{
+    
+    background:#E5EFC1;
+    background-image: url(../img/img_house_dim.svg);
+    background-attachment: fixed;
+    background-position:left; 
+    
+    
+}
+.parallax-verde{
+    height:auto;
+    min-height: 60vh;
+    background:#A2D5AC;
+    background-image: url(../img/img_house_dim.svg);   background-attachment: fixed;
+    background-position:left; 
+    
+    
+}
+.div_titulo_parallax{
+    text-align: center; 
+    font-size: 100px;
+    padding-top: 20vh;
+     font-family: Impact;
+      color:#5B5151;
+      padding-bottom: 15vh;
+      word-break: break-word;
+}
+
+.parallax-rosa{
+    height:auto;
+    min-height: 60vh;
+    background:#FCD0BA;
+    background-image: url(../img/img_house_dim.svg); 
+    background-attachment: fixed;
+    background-position:left; 
+    
+}
+.parallax-verde-escuro{
+    height:auto;
+    min-height: 60vh;
+    background:#8FB9A8;
+    background-image: url(../img/img_house_dim.svg); 
+    background-attachment: fixed;
+    background-position:left; 
+    
+}
+/* ####### */
+
+/* Estilos para Subtítulo abaixo do logo */
+.div_subtitulo_logo{
+    text-align:center; padding-top: 20vh;
+}
+.estilo_img_logo{
+    height: 10%; width:80%;
+}
+.div_aux_subtitulo_logo{
+    padding-top: 10px;
+}
+.subtitulo_logo{
+    background-color: #5B5151; 
+      font-family: 'Franklin Gothic Medium'; 
+      font-size: 25px;text-align: center; 
+      color:#E5EFC1;
+}
+/* ####### */
+
+/* estilo da linha fora do parallax */
+.div_out_parallax{
+    height:80vh;background-color:
+     #5B5151;height: auto; 
+     padding-top: 5vh;
+     padding-bottom: 20vh;
+     text-align: center; 
+}
+.div_aux_grid_parallax{
+    height: auto; width:auto;
+}
+.div_imagem_info{
+    height: 100vh;
+    max-width: 100vw;
+    padding-top:  120px;
+}
+.imagem_info{
+    height: auto; max-width: 100%; 
+}
+.div_info_texto{
+    color:#E5EFC1;
+     padding-top: 20%;
+}
+.info_texto{
+    color:#E5EFC1; padding-top: 50px;
+}
+/* ####### */
+a:hover{
+    transition: .5s;
+    background-color: rgb(67, 94, 100);
+}
+
+.nome_quem_sms_nos{
+    font-size: 25px; 
+    color: white; 
+    padding-top: 20px;
+    margin-bottom: -10px;
+    transition-delay: .1s;
+    transition-duration: .4s;
+    
+}
+.img_quem_sms_nos{
+    -webkit-box-shadow: 0px 0px 5px #00000059; 	
+    -moz-box-shadow: 0px 0px 5px #00000059; 	
+         box-shadow: 0px 0px 5px #00000059; 
+         transition-delay: .1s;
+         transition-duration: .2s;
+}
+.div_img_quem_sms_nos{
+    padding-left: 60px;padding-right: 60px;
+    
+}
+
+.div_img_quem_sms_nos:hover .img_quem_sms_nos{
+    transition-delay: .1s;
+    transition-duration: .5s;
+    transform: scale(1.100);
+  
+}
+.div_img_quem_sms_nos:hover .nome_quem_sms_nos{
+    transition-delay: .2s;
+    transition-duration: .5s;
+    transform: scale(1.100);
+  
+}
+.padding_quem_sms_nos{
+    padding-top: 120px;
+    margin-bottom: -60px;
+}
+.linha_quem_sms_nos{
+    height: 2px;background: white;
+    color: white;
+    margin-bottom: 1px;
+    transition-delay: .3s;
+    transition-duration: .4s;
+}
+.linha_quem_sms_nos_hist{
+    height: 2px;background: white;
+    width: 0px;
+    color: white;
+    margin-bottom: 1px;
+    transition-delay: .4s;
+    transition-duration: .4s;
+    margin-top: -5px;
+}
+.div_img_quem_sms_nos:hover .linha_quem_sms_nos{
+    transition-delay: .4s;
+    transition-duration: .5s;
+    transform: scaleX(.01);
+  
+}
+.div_img_quem_sms_nos:hover .linha_quem_sms_nos_hist{
+    transition-delay: .4s;
+    transition-duration: .5s;
+    width: 100%;
+    transform: scaleX(1);
+  
+}
+.div_img_quem_sms_nos:hover .desc_parceiro_quem_sms_nos{
+   
+    transition-delay: .3s;
+    transition-duration: .5s;
+    transform: scale(1.1);
+  
+}
+.div_img_quem_sms_nos:hover .historia_parceiro_quem_sms_nos{
+     opacity: 1;
+    transition-delay: .8s;
+    transition-duration: .200s;
+    transform: translateX(50px);
+    transition: .7s;
+  
+}
+.desc_parceiro_quem_sms_nos{
+    text-align: center; 
+    color: white; 
+    padding-top: 4px;
+     padding-bottom: 20px;
+     transition-delay: .2s;
+     transition-duration: .5s;
+    font-style: italic;
+}
+.historia_parceiro_quem_sms_nos{
+    opacity: 0;
+    text-align: center; 
+    color: white; 
+    padding-top: 4px;
+     padding-bottom: 20px;
+     transition-delay: .2s;
+     transition-duration: .200s;
+    margin-left: -50px;
+    margin-right: 50px;
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+.div_plano{
+    background: #FCD0BA;
+     height: auto;
+     margin-bottom: 4vh;
+}
+.basico{
+    background: #8FB9A8;
+}
+.medio{
+    background: #6985E4;
+}
+.avancado{
+    background: #F2828D;
+}
+.titulo_plano{
+    height: 20%;
+    text-align: center;
+    line-height: 12vh;
+    font-weight: bold;
+    font-size: 25px;
+    color: #5B5151;
+}
+.texto_plano{
+    padding-top: 7vh;
+    padding-left: 2vw;
+    padding-right:2vw;
+    text-align: center;
+    font-size: large;
+    color: #5B5151;
+}
+.preco_plano{
+    padding-top: 7vh;
+    padding-left: 2vw;
+    padding-right:2vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 5vh;
+    color: #5B5151;
+}

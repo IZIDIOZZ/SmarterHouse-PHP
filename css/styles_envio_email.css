@@ -1,0 +1,51 @@
+.body{
+     background-image: url('../img/img_house_dim.svg');
+     height: 100vh;
+     width: 100%;
+    /* -webkit-filter: blur(5px);
+    filter: blur(5px); */
+    text-align: center;
+}
+.body_email{
+    margin-top:8vh ;
+    height: 20vh;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.email{
+    color: white;
+    background: tomato;
+    word-wrap: break-word;
+}
+.p{
+        line-height: 20vh;
+    word-wrap: break-word;
+}
+.nome{
+    width: 20vw;
+    color: white;
+    background: coral;
+    word-wrap: break-word;
+}
+.assunto{
+    color: white;
+    background: dodgerblue;
+    word-wrap: break-word;
+}
+.mensagem{
+    color: white;
+    background: firebrick;
+    word-wrap: break-word;
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,359 @@
+
+
+.div_escuro{
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100vh;
+    z-index: 98;
+  
+}
+
+#loading{
+    display: block;
+  }
+
+  .parede{
+    border: 5px solid #FCD0BA;
+  
+    background: transparent;
+    width: 120px;
+    height: 65px;
+     position: relative;
+      top: 0px;
+      left: 21%;
+    
+  }
+  .porta{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 35px;
+    height: 45px;
+    position: fixed;
+    top: 19.5px;
+    left: 32%;
+    animation-delay: 0s;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+    animation-name: porta;
+    animation-timing-function: cubic-bezier(.92,.3,.48,.84);
+    
+  }
+
+  @keyframes porta{
+    100% {
+      border-radius: 0px ;
+    }
+  
+    0% {
+      border-radius: 20px 20px  0px 0px;
+    }
+  }
+  .janela{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 10px;
+    left: 90px;
+    animation-delay: 0s;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+    animation-name: janela;
+    animation-timing-function: cubic-bezier(.92,.3,.48,.84);
+  }
+  @keyframes janela{
+    100% {
+      border-radius: 0px ;
+    }
+
+    0% {
+      border-radius:40px;
+    }
+  }
+  .teto{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 160px;
+    height: 45px;
+    position: absolute;
+    border-radius: 0px 0px 0px 0px;
+    top: -41px;
+    left: 6px;
+    animation-delay: 0s;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+    animation-name: teto;
+    animation-timing-function: cubic-bezier(.92,.3,.48,.84);
+  }
+  @keyframes teto{
+    100% {
+     
+      border-radius: 0px 0px 0px 0px;
+    }
+ 
+   0% {
+      border-radius: 55px 55px 10px 10px;
+    }
+  }
+
+  .chamine{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 45px;
+    height: 20px;
+    position: absolute;
+    border-radius: 0px 0px 0px 0px;
+    top: -57px;
+    left: 48px;
+    animation-delay: 0s;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+    animation-name: teto;
+    animation-timing-function: cubic-bezier(.92,.3,.48,.84);
+  }
+
+  @keyframes chamine{
+    100% {
+     
+      border-radius: 0px 0px 0px 0px;
+    }
+
+    0% {
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+
+  .fumaca_1{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 10px;
+    top: -75px;
+    left: 68px;
+    animation-delay: .3s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+    animation-name: anim_fum_1;
+    animation-timing-function: cubic-bezier(.66,.69,.64,.63);
+    opacity: 0;
+  }
+  @keyframes anim_fum_1{
+     
+    0% { left: 68px;  top: -75px; opacity: 0; border-radius: 0px;  }
+    9%{   left: 74px;  top: -78px; opacity: 1; border-radius: 0px;  }
+    18%{  left: 88px;  top: -80px; opacity:0; border-radius: 0px;  }
+
+    19% { left: 68px;  top: -75px; opacity: 0;border-radius: 10px }
+    36%{  left: 74px;  top: -78px; opacity: 1;border-radius: 10px }
+    45% { left: 88px;  top: -80px; opacity:0;border-radius: 10px  }
+
+    54% { left: 68px;  top: -75px; opacity: 0; border-radius: 0px;  }
+    63%{   left: 74px;  top: -78px; opacity: 1; border-radius: 0px;  }
+    72%{  left: 88px;  top: -80px; opacity:0; border-radius: 0px;  }
+
+    73% { left: 68px;  top: -75px; opacity: 0;border-radius: 10px }
+    90%{  left: 74px;  top: -78px; opacity: 1;border-radius: 10px }
+    100% { left: 88px;  top: -80px; opacity:0;border-radius: 10px  }
+    
+  }
+  
+  .fumaca_2{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    border-radius: 15px;
+    top: -90px;
+    left: 91px;
+    animation-delay: .5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+    animation-name: anim_fum_2;
+    animation-timing-function:  cubic-bezier(.66,.69,.64,.63);
+    opacity: 0;
+  }
+  @keyframes anim_fum_2{
+    0% {
+      left: 91px;  top: -90px; opacity: 0
+    }
+    60%{left: 97px;  top: -92px; opacity: 1}
+  
+    100% {
+      left: 104px;  top: -95px; opacity:0
+    }
+
+    0% {  left: 91px;  top: -90px; opacity: 0;  border-radius: 0px;  }
+    9%{   left: 97px;  top: -92px; opacity: 1; border-radius: 0px;  }
+    18%{   left: 104px;  top: -95px; opacity:0; border-radius: 0px;  }
+
+    19% { left: 91px;  top: -90px; opacity: 0;  border-radius: 10px }
+    36%{   left: 97px;  top: -92px; opacity: 1; border-radius: 10px }
+    45% {  left: 104px;  top: -95px; opacity:0;border-radius: 10px  }
+
+    54% { left: 91px;  top: -90px; opacity: 0;  border-radius: 0px;  }
+    63%{  left: 97px;  top: -92px; opacity: 1; border-radius: 0px;    }
+    72%{   left: 104px;  top: -95px; opacity:0; border-radius: 0px; }
+
+    73% { left: 91px;  top: -90px; opacity: 0;  border-radius: 10px }
+    90%{   left: 97px;  top: -92px; opacity: 1; border-radius: 10px }
+    100%{  left: 104px;  top: -95px; opacity:0;border-radius: 10px  }
+
+  }
+  
+  .fumaca_3{
+    border: 5px solid #FCD0BA;
+    background: transparent;
+    width: 27px;
+    height: 20px;
+    position: absolute;
+    border-radius: 20px;
+    top: -110px;
+    left: 120px;
+    animation-delay: .8s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+    animation-name: anim_fum_3;
+    animation-timing-function: cubic-bezier(.66,.69,.64,.63);
+    opacity: 0
+  }
+  @keyframes anim_fum_3{
+    
+  
+
+    0% {  left: 120px;  top: -110px; opacity: 0;  border-radius: 0px;  }
+    9%{   left: 133px;  top: -115px; opacity: 1;  border-radius: 0px;  }
+    18%{   left: 140px;  top: -120px; opacity:0; border-radius: 0px;  }
+
+    19% { left: 120px;  top: -110px; opacity: 0;border-radius: 10px }
+    36%{  left: 133px;  top: -115px; opacity: 1;border-radius: 10px }
+    45% {  left: 140px;  top: -120px; opacity:0;border-radius: 10px  }
+
+    54% { left: 120px;  top: -110px; opacity: 0;border-radius: 0px;  }
+    63%{  left: 133px;  top: -115px; opacity: 1; border-radius: 0px;  }
+    72%{   left: 140px;  top: -120px; opacity:0;border-radius: 0px;  }
+
+    73% { left: 120px;  top: -110px; opacity: 0;border-radius: 10px }
+    90%{  left: 133px;  top: -115px; opacity: 1;border-radius: 10px }
+    100% { left: 140px;  top: -120px; opacity:0;border-radius: 10px  }
+  }
+  .div_loading{
+    text-align: center;
+    font-size: 34px;
+    position: relative;
+    float: left;
+    /* padding-top: 100vh; */
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .div_base_casa{
+                              
+      border: 5px solid #FCD0BA;
+      background: transparent;
+      width: 200px;
+     
+      position: absolute;
+      bottom: 0px;
+      left: 6px;
+      border-top: transparent;
+      /* animation-delay: 1.4s; */
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-direction: normal ;
+      animation-name: base_casa;
+      animation-timing-function: cubic-bezier(.66,.69,.64,.63);
+  }
+
+  @keyframes base_casa{
+    
+    
+    0% {   border-radius: 0px ;  }
+    20%{    border-radius: 10px;  }
+    50%{   border-radius: 0px;  }
+
+    51% { border-radius: 0px ;}
+    80%{  border-radius: 10px;}
+    100% { border-radius: 0px;  }
+   
+
+  }
+  .folha{
+      border: 5px solid #FCD0BA;
+      background: transparent;
+      width: 25px;
+      height: 30px;
+      position: absolute;
+      bottom: 0px;
+      border-radius: 0px 0px 0px 00px;
+      left: 140.2px;
+      /* animation-delay: 0s; */
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-name: folha;
+      animation-timing-function: cubic-bezier(.66,.69,.64,.63);
+      }
+
+      @keyframes folha{
+    
+        0% {   border-radius: 0px 0px 0px 00px; }
+        25%{    border-radius: 10px 15px 0px 00px;  }
+        70%{    border-radius: 10px 15px 0px 00px;  }
+        100%{   border-radius: 0px 0px 0px 00px;  }
+       
+    
+      }
+      .folha2{
+        
+      border: 5px solid #FCD0BA;
+      background: transparent;
+      width: 25px;
+      height: 20px;
+      position: absolute;
+      bottom: 0px;
+      border-radius: 0px 0px 0px 00px;
+      left: 160.2px;
+      /* animation-delay: 2.0s; */
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-name: folha2;
+      animation-timing-function: cubic-bezier(.66,.69,.64,.63);
+    }
+
+
+    @keyframes folha2{
+    
+      0% {   border-radius: 0px 0px 0px 00px; }
+      25%{    border-radius:  20px 20px 0px 0px  }
+      70%{    border-radius: 20px 20px 0px 0px  }
+      100%{   border-radius: 0px 0px 0px 00px;  }
+     
+  
+    }
+
+
+
+
+  .div_escuro_texto{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 20px;
+    color: #FCD0BA;
+  }
+

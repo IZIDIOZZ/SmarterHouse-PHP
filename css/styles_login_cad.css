@@ -1,0 +1,184 @@
+
+/* Tamanho do cabeçalho da tela inicial*/
+.cabecalho-log-cad{
+    height: 100vh;
+}
+/*#*/
+
+/* background da parte direita da tela de login/cadastro */
+.corpo-light-log-cad{
+    background: #E6EFC2;
+    height: 100vh;
+    background-image: url('../img/img_house_dim.svg')
+}
+/*#*/
+.hide{
+    display: none;
+}
+/* background da parte esquerda da tela de login/cadastro  */
+.corpo-dark-log-cad{
+    background: #5B5150; 
+    height: 40vh; 
+    background-image: url('../img/img_black_house_dim.svg')
+}
+/*#*/
+
+/* tamanho do background esquerdo do site */
+.tamanho-dark-log-cad{
+    height: 100vh;
+}
+/*#*/
+
+/* div responsável pelo retângulo central dos forms */
+.div-central-forms-log-cad{
+    position: absolute; 
+    z-index:99; 
+    top: 8vh; 
+    left: 9vw;
+    background: #A2D5AC;
+    width: 80vw;
+    height: 85vh;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+
+}
+/*#*/
+
+/* div responsável pelo formulário de login */
+.div-form-login-log-cad{
+    background: #A2D5AC; 
+    height: 40vh;
+    overflow:auto;
+    opacity: 0.98;
+}
+
+/*#*/
+/*cor do background body*/
+.cor-fundo-body{
+    background: #E6EFC2;
+}
+/*#*/
+/* titulo do formulario de login */
+.titulo-form-login-log-cad{
+    padding-top: 20vh;
+}
+/*#*/
+
+/* div responsável pelo formulário de cadastro */
+.div-form-cadastro-log-cad{
+    height: 85vh; 
+    background: #5B5150;
+    overflow:auto;
+    padding-top: 5vh;
+}
+/*#*/
+
+
+/* cores para texto do swicth */
+.switch-text-inactive-cor-dark{
+    color: #4b4747;
+}
+.switch-text-active-cor-light{
+    color: #ffffff;
+}
+/*#*/
+
+/* switchs personalizados  */
+.switch input:checked~.switch-paddle,
+.switch.primary input:checked~.switch-paddle {
+    background: #1779ba;
+
+}
+
+.switch.claro input:checked~.switch-paddle {
+    background: #A2D5AC;
+}
+
+.switch.escuro input:checked~.switch-paddle {
+    background: #5E5E5E;
+}
+
+/*#*/
+
+
+/* cores de texto personalizadas */
+.texto_claro {
+    color: #E6EFC2;
+}
+.texto_escuro {
+    color: #5B5150;
+}
+/*#*/
+
+
+
+/* cor para termos de contrato */
+.cor-termos-contrato{
+    color:#F1B0B9;
+}
+
+.cor-termos-contrato:hover{
+    color:rgb(238, 123, 139);
+}
+/*#*/
+
+/*cor para erro formulário*/
+.cor-erro-form-cadastro{
+      color:#EB8F9D;
+}
+/*#*/
+.font_size{
+    font-size:40px;
+}
+.over_hide{
+    overflow-x:hidden;
+}
+.titulo_info{
+    text-align: center;
+    padding-top: 23vh;
+}
+.back_cadastro{
+    background: transparent;
+    border: none; 
+    padding: 0px;
+}
+.padding_switch{
+    padding-bottom : 20px;
+}
+.centro{
+    text-align: center;
+}
+.termos_contrato{
+    background: transparent;
+    border: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.vl{
+
+  border-bottom: 4px solid #A2D5AC;  margin-left: 20vw; margin-right: 20vw; width: 100vw;  height: 2px;  
+   }
+.titulo_info{
+    text-align: center;
+    padding-top: 5vh;
+}
+}
+ 
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.vl{
+     
+      border-bottom: 4px solid #A2D5AC;  margin-left: 20vw; margin-right: 20vw; width: 100vw; height: 2px;
+     
+      }
+      .titulo_info{
+    text-align: center;
+    padding-top: 5vh;
+}
+}

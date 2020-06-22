@@ -1,0 +1,13 @@
+/* mudando a cor do placeholder da pagina contato */
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #977D70; 
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #977D70; 
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #977D70; 
+} 
+/* ######### */

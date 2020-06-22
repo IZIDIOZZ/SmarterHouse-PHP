@@ -1,0 +1,59 @@
+/* titulo da página de contato */
+.titulo_parallax_contato{
+    text-align: center; 
+    font-size: 100px;
+    padding-top: 25vh;
+     font-family: Impact;
+      color:#5B5151;
+      padding-bottom: 15vh;
+      word-break: break-word;
+}
+/* ######### */
+
+/* div primaria do parallax */
+.div_out_parallax_contato{
+    height:80vh;
+    background-color:
+     #5B5151;height: auto; 
+     padding-top: 5vh;
+     padding-bottom: 20vh;
+     text-align: center; 
+}
+/* ######### */
+
+/* estilo para botão de envio de mensagem */
+.alinhamento_esquerda{
+    text-align: left !important;
+}
+/* ######### */
+
+/* tamanho do input da mensagem */
+.size_input{
+    height: 200px;
+   
+}
+/* ######### */
+
+/* definindo a cor do background e texto do formulario de contato */
+.cor_campos_contato{
+    background: #FCD0BA !important;
+    color: #5B5151;
+    
+}
+/* ######### */
+
+/* estilziando textarea do formulario de contato */
+.campo_mensagem{
+    height: 40vh;
+    line-break: auto;
+    color: black;
+    text-align: left;
+    border: 1px solid #5B5151;
+    resize: none;
+
+}
+/* ######### */
+
+.espaco_top_contato{
+    padding-top: 20vh;
+}
